@@ -22,3 +22,22 @@ document.querySelector('#app').innerHTML = `
 `
 
 setupCounter(document.querySelector('#counter'))
+
+/*
+Uses of spread operator:
+1. Copying an Array
+2. Merging Arrays
+3. Passing multiple arguments to a function
+*/
+//Spread Operator Examples
+// const array = [1, 2, 3];
+// console.log(...array);
+
+//Rest Operator Example
+display(1, 2, 3, 4, 5);
+
+function display(first, second, ...restArguments){
+  console.log(first);
+  console.log(second);
+  console.log(restArguments);
+}
