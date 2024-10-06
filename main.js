@@ -34,10 +34,19 @@ Uses of spread operator:
 // console.log(...array);
 
 //Rest Operator Example
-display(1, 2, 3, 4, 5);
+/*display(1, 2, 3, 4, 5);
 
 function display(first, second, ...restArguments){
   console.log(first);
   console.log(second);
   console.log(restArguments);
-}
+}*/
+
+//Array destructuring
+const fruits = ['apple', 'banana'];
+
+//Array destructuring
+const [firstFruit, secondFruit] = fruits;
+
+console.log(firstFruit);
+console.log(secondFruit);
